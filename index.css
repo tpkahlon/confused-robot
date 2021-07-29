@@ -1,0 +1,47 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+* {
+  box-sizing: border-box;
+}
+#app {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
+aside {
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+button {
+  margin-right: 15px;
+}
+button:last-of-type {
+  margin-right: 0;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 1;
+  min-width: 5px;
+  min-height: 10vh;
+  border: 1px solid black;
+}
+.player {
+  background: #5f8c3d;
+  height: 10vh;
+}
+.player--0 {
+  border-top: 5px solid yellow;
+}
+.player--1 {
+  border-right: 5px solid yellow;
+}
+.player--2 {
+  border-bottom: 5px solid yellow;
+}
+.player--3 {
+  border-left: 5px solid yellow;
+}
